@@ -1,5 +1,9 @@
 import React from 'react';
 import './styles/style.css';
+import GitHub from './images/GitHubLogo.png';
+import Instagram from './images/InstagramLogo.png';
+import LinkedIn from './images/LinkedInLogo.png';
+import BMAC from './images/BuyMeACoffeeLogo.png';
 
 function Footer({ currentPage, handlePageChange }) {
   return (
@@ -7,28 +11,28 @@ function Footer({ currentPage, handlePageChange }) {
       <ul class="contact-links">
         <li>
           <a href="https://github.com/dleatonsalinas">
-            <img src="../images/GitHubLogo.png" alt="GitHub Logo" />
+            <img src={GitHub} alt="GitHub Logo" />
             <br />
             GitHub
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/_daniellesalinas_/">
-            <img src="../images/InstagramLogo.png" alt="Instagram Logo" />
+            <img src={Instagram} alt="Instagram Logo" />
             <br />
             Instagram
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/danielle-leaton-salinas-111563248/">
-            <img src="../images/LinkedInLogo.png" alt="LinkedIn Logo" />
+          <a href="https://www.linkedin.com/in/danielle-ls-111563248/">
+            <img src={LinkedIn} alt="LinkedIn Logo" />
             <br />
             LinkedIn
           </a>
         </li>
         <li>
           <a href="https://www.buymeacoffee.com/dleatonsalinas">
-            <img src="../images/BuyMeACoffeeLogo.png" alt="Buy Me a Coffee Logo" />
+            <img src={BMAC} alt="Buy Me a Coffee Logo" />
             <br />
             Buy me a coffee
           </a>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/style.css';
+import DLSImg from '../images/DLSHeadshot2.jpg';
 
 export default function About() {
   return (
@@ -22,7 +23,7 @@ export default function About() {
         <div className="about-column">
           <section id="about-photo">
             <div className="about-photo">
-              <img src="./images/DLSHeadshot2.jpg" alt="Danielle Leaton-Salinas" style={{maxWidth: "500px"}} />
+              <img src={DLSImg} alt="Danielle Leaton-Salinas" style={{maxWidth: "500px"}} />
             </div>
           </section>
         </div>
