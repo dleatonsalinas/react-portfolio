@@ -1,17 +1,32 @@
 import React from 'react';
+import '../styles/style.css'
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div className="about" id="about">
+      <div className="about-row">
+        <div className="about-column">
+          <section className="about-bio">
+            <h5>About</h5>
+            <p>
+              Hey, I'm Danielle. I'm currently working on designing
+              websites using HTML and CSS. I am a driven, open-minded, creative, and
+              hardworking person with a high attention to detail. Most see me as caring,
+              approachable, and non-judgmental.
+            </p>
+            <p><br />
+              Lover of carnivorous plants, mother of three omnivorous children.
+            </p>
+          </section>
+        </div>
+        <div className="about-column">
+          <section id="about-photo">
+            <div className="about-photo">
+              <img src="../images/DLSHeadshot2.jpg" alt="Danielle Leaton-Salinas" style={{maxWidth: "500px"}} />
+            </div>
+          </section>
+        </div>
+      </div>
     </div>
   );
 }
