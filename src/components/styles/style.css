@@ -36,7 +36,7 @@ ol,ul {
 
 .navbar a {
 	display: block;
-	padding: 1vw;
+	padding: 0vw;
 	text-decoration: none;
     text-align: center;
     text-transform: uppercase;
@@ -60,9 +60,10 @@ ol,ul {
 }
 
 .logo img {
-    max-width: 10vw;
-    max-height: 10vw;
+    max-width: 8vw;
+    max-height: 18vw;
     vertical-align: middle;
+    padding-left: 1vw;
 }
 
 body {
@@ -89,7 +90,7 @@ header {
 h1 {
     font-size: 1.75vw;
     font-family: 'Poiret One', 'arial', sans-serif;
-    margin-top: 5vw;
+    margin-top: .5vw;
     margin-left: 25%;
 
 }
@@ -189,7 +190,7 @@ footer{
 .about{
     width: 100%;
     margin: 0px;
-    padding: 10vw 7vw 10vw;
+    padding: 5vw 7vw 5vw;
     box-sizing: inherit;
     display: flex;
     background: #f5f3ef;
@@ -224,7 +225,7 @@ footer{
     padding: 0vw 2vw 0vw 2vw;
 }
 
-img{
+.about-photo img{
     width: 100%;
     border-radius: 2vw;
 }
@@ -256,7 +257,7 @@ img{
 
 .work-featured img{
     filter: opacity(0.5);
-    max-width: 
+    max-width: 100%;
 }
 
 .work-featured img:hover{
@@ -456,7 +457,7 @@ img{
 
 .work-other-items img{
     filter: opacity(0.5);
-    max-width: 400px;
+    max-width: 200px;
 }
 
 .work-other-items img:hover{

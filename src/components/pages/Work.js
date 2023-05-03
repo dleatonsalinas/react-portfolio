@@ -1,5 +1,9 @@
 import React from 'react';
 import '../styles/style.css';
+import FP1Img from '../images/featured-project-air-pollution.png';
+import FP2Img from '../images/featured-project-horiseon.png';
+import FPPlaceholder from '../images/featured-project-placeholder.png'
+import OtherPHImg from '../images/other-project-placeholder.png'
 
 export default function Work() {
   return (
@@ -19,7 +23,7 @@ export default function Work() {
                 </p>
               </div>
               <div className="featured-project-photo-R1">
-                <a href="https://cyril1743.github.io/GPS-Satellite/"><img src="./featured-project-air-pollution.png" alt="Website Landing Page" /></a>
+                <a href="https://cyril1743.github.io/GPS-Satellite/"><img src={FP1Img} alt="Website Landing Page" /></a>
               </div>
             </div>
           </li>
@@ -38,7 +42,7 @@ export default function Work() {
                 </p>
               </div>
               <div className="featured-project-photo-L">
-                <a href="https://dleatonsalinas.github.io/horiseon-refractor/"><img src="./featured-project-horiseon.png" alt="Horiseon Landing Page" /></a>
+                <a href="https://dleatonsalinas.github.io/horiseon-refractor/"><img src={FP2Img} alt="Horiseon Landing Page" /></a>
               </div>
             </div>
           </li>
@@ -57,7 +61,7 @@ export default function Work() {
                 </p>
               </div>
               <div className="featured-project-photo-R2">
-                <a href="https://www.placeholder.com"><img src="./featured-project-placeholder.png" alt="Placeholder project" /></a>
+                <a href="https://www.placeholder.com"><img src={FPPlaceholder} alt="Placeholder project" /></a>
               </div>
             </div>
           </li>
@@ -77,7 +81,7 @@ export default function Work() {
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src="../images/other-project-placeholder.png" alt="Placeholder project"/></a>
+                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project"/></a>
               </footer>
             </div>
             <div className="work-other-items">
@@ -92,7 +96,7 @@ export default function Work() {
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src="../images/other-project-placeholder.png" alt="Placeholder project"/></a>
+                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project"/></a>
               </footer>
             </div>
             <div className="work-other-items">
@@ -107,7 +111,7 @@ export default function Work() {
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src="../images/other-project-placeholder.png" alt="Placeholder project"/></a>
+                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project"/></a>
               </footer>
             </div>
             <div className="work-other-items">
@@ -122,7 +126,7 @@ export default function Work() {
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src="../images/other-project-placeholder.png" alt="Placeholder project" /></a>
+                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project" /></a>
               </footer>
             </div>
             <div className="work-other-items">
@@ -137,7 +141,7 @@ export default function Work() {
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src="../images/other-project-placeholder.png" alt="Placeholder project" /></a>
+                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project" /></a>
               </footer>
             </div>
             <div className="work-other-items">
@@ -152,7 +156,7 @@ export default function Work() {
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src="../images/other-project-placeholder.png" alt="Placeholder project"/></a>
+                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project"/></a>
               </footer>
             </div>
           </li>
