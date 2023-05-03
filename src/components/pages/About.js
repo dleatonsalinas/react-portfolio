@@ -22,7 +22,7 @@ export default function About() {
         <div className="about-column">
           <section id="about-photo">
             <div className="about-photo">
-              <img src="../images/DLSHeadshot2.jpg" alt="Danielle Leaton-Salinas" style={{maxWidth: "500px"}} />
+              <img src="./images/DLSHeadshot2.jpg" alt="Danielle Leaton-Salinas" style={{maxWidth: "500px"}} />
             </div>
           </section>
         </div>
