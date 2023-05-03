@@ -17,7 +17,7 @@ export default function Project() {
             </div>
           </header>
           <footer>
-            <a href="https://www.placeholder.com"><img src="./other-project-placeholder.png"/></a>
+            <a href="https://www.placeholder.com"><img src="..images/other-project-placeholder.png"/></a>
           </footer>
         </div>
       </li>
