@@ -6,6 +6,7 @@ import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
 import './styles/style.css';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -28,7 +29,11 @@ export default function PortfolioContainer() {
   return (
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <TransitionGroup>
+        <CSSTransition key={currentPage} timeout={500} classNames="fade">
+          {renderPage()}
+        </CSSTransition>
+      </TransitionGroup>
       <Footer />
     </div>
   );

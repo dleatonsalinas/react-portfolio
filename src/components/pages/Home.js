@@ -12,7 +12,7 @@ export default function Home() {
         <h3>(she/her)</h3>
       </div>
       <div>
-        <h4>I'm Danielle, a web developer based in Kansas City, Missouri. My goal is to create something special using artistic styling and CSS.</h4>
+        <h4>I'm Danielle, a web developer based in Kansas City, Missouri. My goal is to create something special using artistic styling and design.</h4>
       </div>
     </div>
   );
