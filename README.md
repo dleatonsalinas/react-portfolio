@@ -1,5 +1,9 @@
 # 20 React: React Portfolio
 
+See the deployed site [here:](https://dleatonsalinas.github.io/react-portfolio) 
+
+![Screenshot 2023-05-04 081619](https://user-images.githubusercontent.com/118854114/236215985-8b73f7ba-72aa-4d07-8be3-650c33e7de72.jpg)
+
 ## Your Task
 
 Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
