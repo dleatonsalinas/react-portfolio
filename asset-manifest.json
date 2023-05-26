@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e70197fe.css",
-    "main.js": "/react-portfolio/static/js/main.e55d6577.js",
-    "static/media/featured-project-horiseon.png": "/react-portfolio/static/media/featured-project-horiseon.b271a3f6692e7c27c366.png",
+    "main.js": "/react-portfolio/static/js/main.b41cf8bc.js",
     "static/media/featured-project-air-pollution.png": "/react-portfolio/static/media/featured-project-air-pollution.97dc789e248d0675ce70.png",
+    "static/media/featured-project-litchat.png": "/react-portfolio/static/media/featured-project-litchat.2468f3dc8994b6febc0b.png",
     "static/media/DLSHeadshot2.jpg": "/react-portfolio/static/media/DLSHeadshot2.bde244f6281f96454934.jpg",
+    "static/media/featured-project-weather.png": "/react-portfolio/static/media/featured-project-weather.aa551ead3e313abd34c1.png",
     "index.html": "/react-portfolio/index.html",
     "main.e70197fe.css.map": "/react-portfolio/static/css/main.e70197fe.css.map",
-    "main.e55d6577.js.map": "/react-portfolio/static/js/main.e55d6577.js.map"
+    "main.b41cf8bc.js.map": "/react-portfolio/static/js/main.b41cf8bc.js.map"
   },
   "entrypoints": [
     "static/css/main.e70197fe.css",
-    "static/js/main.e55d6577.js"
+    "static/js/main.b41cf8bc.js"
   ]
 }
