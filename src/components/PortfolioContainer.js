@@ -12,16 +12,18 @@ export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
+    switch (currentPage) {
+      case 'Home':
+        return <Home />;
+      case 'About':
+        return <About />;
+      case 'Work':
+        return <Work />;
+      case 'Contact':
+        return <Contact />;
+      default:
+        return null;
     }
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Work') {
-      return <Work/>;
-    }
-    return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -31,7 +33,7 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <TransitionGroup>
         <CSSTransition key={currentPage} timeout={500} classNames="fade">
-          {renderPage()}
+          <div className="page-container">{renderPage()}</div>
         </CSSTransition>
       </TransitionGroup>
       <Footer />
