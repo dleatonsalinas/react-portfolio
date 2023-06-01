@@ -88,15 +88,14 @@ header {
     float: right;
 }
 
-h1 {
+.landing h1 {
     font-size: 1.75vw;
     font-family: 'Poiret One', 'arial', sans-serif;
     margin-top: .5vw;
     margin-left: 25%;
-
 }
 
-h2 {
+.landing h2 {
     margin-top: 0px;
     margin-left: 2%;
     font-size: 5.75vw;
@@ -159,7 +158,7 @@ a {
     color: var(--dark);
 }
 
-main {
+.about {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
@@ -486,13 +485,13 @@ footer {
 
 @media (max-width: 768px) {
     .work-other-container {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .work-other-container {
         display: grid;
         max-width: 800px;
@@ -504,8 +503,8 @@ footer {
         grid-row-gap: 5%;
         background: #ABB6BB;
     }
-  }
-  
+}
+
 
 /* .work-other-container {
     display: grid;
@@ -553,7 +552,7 @@ footer {
     box-sizing: inherit;
     display: block;
     background: #eeeae5;
-    font-size: clamp(8px, 1.5vw; 16px);
+    font-size: clamp(8px, 1.5vw, 16px);
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
@@ -654,28 +653,320 @@ label {
 
 .footer p {
     padding: 30px 0px 0px 0px;
-    font-size: clamp(8px; 1vw, 12);
+    font-size: clamp(8px, 1vw, 12);
 }
 
 .fade-enter {
     opacity: 0;
-  }
-  
-  .fade-enter-active {
+}
+
+.fade-enter-active {
     opacity: 1;
     transition: opacity 500ms ease-in-out;
-  }
-  
-  .fade-exit {
+}
+
+.fade-exit {
     opacity: 1;
-  }
-  
-  .fade-exit-active {
+}
+
+.fade-exit-active {
     opacity: 0;
     transition: opacity 500ms ease-in-out;
-  }
-  
-  .page-container {
+}
+
+.page-container {
     position: relative;
-  }
-  
+}
+
+.fwproject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fwproject-header h1 {
+    font-size: 4.5vw;
+    font-family: 'Lora', 'arial', sans-serif;
+    margin: 20px auto 0px;
+}
+
+.fwproject-header p {
+    font-size: 1.75vw;
+    font-family: 'Poiret One', 'arial', sans-serif;
+    margin: 30px auto 0px;
+}
+
+.fwproject-hero img {
+    max-width: 60vw;
+    max-height: 60vw;
+    margin-top: 20px;
+}
+
+.wireframe {
+    max-width: 50vw;
+    max-height: 60vw;
+    margin-top: 20px;
+}
+
+.fwproject-accent {
+    display: flex;
+    flex-direction: column;
+    background: #f5f3ef;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3vw;
+    padding: 5vw 10vw 5vw 10vw;
+    object-fit: fill;
+}
+
+.fwproject-overview {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fwproject-overview h1,
+.fwproject-design h1,
+.fwproject-research h1 {
+    font-size: 3.75vw;
+    font-family: 'Poiret One', 'arial', sans-serif;
+    text-align: center;
+}
+
+.fwproject-overview h2 {
+    font-size: 2.25vw;
+    font-family: 'Open Sans', 'arial', sans-serif;
+    text-align: center;
+}
+
+.fwproject-research h2 {
+    font-size: 2.25vw;
+    font-family: 'Open Sans', 'arial', sans-serif;
+    text-align: left;
+    margin: 2vw 0vw 2vw 0vw;
+}
+
+.fwproject-research p {
+    font-size: clamp(8px, 1.75vw, 14px);
+    font-family: 'Open Sans', 'arial', sans-serif;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.fwproject-overview h3,
+.fwproject-research h3 {
+    font-size: clamp(14px, 1.75vw, 28px);
+    font-family: 'Open Sans', 'arial', sans-serif;
+    text-align: left;
+    margin-top: 2vw;
+    margin-left: 0;
+}
+
+.fwproject-design h3 {
+    font-size: clamp(14px, 1.75vw, 28px);
+    font-family: 'Open Sans', 'arial', sans-serif;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.fwproject-overview-grid {
+    display: grid;
+    grid-template-columns: 66% 34%;
+    grid-gap: 4vw;
+}
+
+.fwproject-overview-left,
+.fwproject-overview-right {
+    grid-area: col;
+    text-align: left;
+    font-size: clamp(8px, 1.7vw, 16px);
+}
+
+.fwproject-overview-left {
+    grid-column: 1;
+}
+
+.fwproject-overview-left h2 {
+    margin: 40px auto 20px 0px;
+}
+
+.challenge-description {
+    font-size: clamp(10px, 2vw, 18px);
+}
+
+.fwproject-overview-right {
+    grid-column: 2;
+    font-size: clamp(8px, 1.5vw, 14px)
+}
+
+.fwproject-overview-left li {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.fwproject-research li {
+    list-style-type: circle;
+    text-align: left;
+}
+
+.card-research li {
+    list-style-type: decimal;
+    text-align: left;
+    font-size: clamp(10px, 1.25vw, 12px);
+}
+
+.card-persona li {
+    list-style-type: circle;
+    text-align: left;
+    font-size: clamp(10px, 1.25vw, 12px);
+}
+
+.team-members p {
+    margin: 0;
+}
+
+.view-prototype-button,
+.view-github-button {
+    background-color: #ae682b;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ 
+    transition: opacity 200ms ease, opacity 200ms ease;
+    color: #f1f2f6;
+    margin-right: 15px;
+}
+
+.fwproject-white {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 5vw 10vw 0vw 10vw;
+    object-fit: fill;
+}
+
+.fwproject-design {
+    max-width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5vw;
+}
+
+.fwproject-research .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2vw;
+}
+
+
+.card {
+    background-color: #f5f3ef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.card-research {
+    background-color: #f5f3ef;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 275px;
+}
+
+.card-persona {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 4px #ABB6BB;
+    text-align: center;
+    width: 275px;
+}
+
+.card-user-persona {
+    background-color: #f5f3ef;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 800px;
+}
+
+
+.card-research h3,
+.card-persona h3 {
+    font-size: clamp(14px, 1.75vw, 28px);
+    font-family: 'Open Sans', 'arial', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-research h4 {
+    font-size: clamp(10px, 1.5vw, 18px);
+    font-family: 'Open Sans', 'arial', sans-serif;
+    text-align: left;
+    color: #2a3b42;
+    margin-top: .5vw;
+    margin-left: 0;
+    letter-spacing: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.fwproject-research {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.fwproject-research h4 {
+    font-size: clamp(10px, 1.5vw, 18px);
+    font-family: 'Open Sans', 'arial', sans-serif;
+    text-align: left;
+    color: #2a3b42;
+    margin-top: 1vw;
+    margin-left: 0;
+    letter-spacing: 0px;
+}
+
+.fwproject-research ul {
+    padding-left: 40px;
+}
+
+.text-link {
+    display: inline-block;
+    color: lightseagreen;
+    font-weight: bold;
+}
