@@ -43,7 +43,7 @@ export default function LitChat() {
             {/* <!-- COLUMN LEFT --> */}
             <div className="fwproject-overview-left">
               <h2>Challenge</h2>
-              <p className="challenge-description">LitChat LitChat is a dynamic and engaging website designed
+              <p className="challenge-description">LitChat is a dynamic and engaging website designed
                 for literature enthusiasts to
                 connect and share their thoughts on their favorite books. It serves as a virtual
                 gathering place where users from all over can come together to discuss and exchange
@@ -343,7 +343,7 @@ export default function LitChat() {
             using FigJam to
             gain a deeper understanding of users' needs, thoughts, emotions, and behaviors in order
             to
-            design LitChat in a way that truly resonate with them.</p>
+            design LitChat in a way that truly resonates with them.</p>
           <div className="empathy-map">
             <div className="card-container">
               <img src={EmpathyBE} alt="Empathy Map"/>
@@ -383,7 +383,7 @@ export default function LitChat() {
             inform the development of LitChat.
             <br></br>
             <br></br>
-            Creating a detailed persona hels me understand the users' needs and preferences so I can
+            Creating a detailed persona helps me understand the users' needs and preferences so I can
             better
             create visually appealing interfaces that enhance user satisfaction and engagement.
           </p>

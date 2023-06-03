@@ -23,7 +23,7 @@ export default function Work({ handlePageChange }) {
               </h6>
               <div className="featured-description-R1">
                 <p>
-                  LitChat is a dynamic and engaging website designed for literature enthusiasts to connect and share their thoughts on their favorite books.
+                  LitChat is a dynamic and engaging website designed for literature enthusiasts to connect and share their thoughts on their favorite books.<br></br><br></br><i>(Click the photo to the left for more details.)</i>
                 </p>
               </div>
               <div className="featured-project-photo-R1">
