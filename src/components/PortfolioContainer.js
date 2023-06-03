@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import NavTabs from './NavTabs';
 import Footer from './Footer';
 import Home from './pages/Home';
@@ -29,6 +30,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
+    <Router>
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <TransitionGroup>
@@ -38,5 +40,6 @@ export default function PortfolioContainer() {
       </TransitionGroup>
       <Footer />
     </div>
+    </Router>
   );
 }

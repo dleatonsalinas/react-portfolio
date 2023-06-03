@@ -8,7 +8,7 @@ import BMAC from './images/BuyMeACoffeeLogo.png';
 function Footer({ currentPage, handlePageChange }) {
   return (
     <>
-      <ul class="contact-links">
+      <ul className="contact-links">
         <li>
           <a href="https://github.com/dleatonsalinas">
             <img src={GitHub} alt="GitHub Logo" />
@@ -39,7 +39,7 @@ function Footer({ currentPage, handlePageChange }) {
         </li>
       </ul>
       <footer>
-        <div class="footer">
+        <div className="footer">
           <p>
             Designed + Built with 🤍 by Danielle Leaton-Salinas
             <br />

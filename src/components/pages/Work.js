@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/style.css';
 import FP1Img from '../images/featured-project-litchat.png';
 import FP2Img from '../images/featured-project-weather.png';
@@ -15,15 +16,17 @@ export default function Work() {
             <div className="featured-projects-content-R1">
               <p className="featured-project-header-R1">Featured Project</p>
               <h6 className="featured-project-title-R1">
-                <a href="https://cyril1743.github.io/GPS-Satellite/">LitChat</a>
+                <Link to="/LitChat">LitChat</Link>
               </h6>
               <div className="featured-description-R1">
                 <p>
-                LitChat is a dynamic and engaging website designed for literature enthusiasts to connect and share their thoughts on their favorite books.
+                  LitChat is a dynamic and engaging website designed for literature enthusiasts to connect and share their thoughts on their favorite books.
                 </p>
               </div>
               <div className="featured-project-photo-R1">
-                <a href="https://github.com/hasherlaws18/Chat-App"><img src={FP1Img} alt="Website Landing Page" /></a>
+                <Link to="/LitChat">
+                  <img src={FP1Img} alt="Website Landing Page" />
+                </Link>
               </div>
             </div>
           </li>

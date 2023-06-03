@@ -7,7 +7,7 @@ import logoImg from './images/DLSLogo.png';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='navbar'>
-      <a href="https://github.com/dleatonsalinas" class="logo">
+      <a href="https://github.com/dleatonsalinas" className="logo">
             <img src={logoImg} alt="logo"/>
         </a>
     <ul className="nav nav-links">

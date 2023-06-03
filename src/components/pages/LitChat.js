@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/style.css';
-import Hero from '../images/LitChat-Hero.png';
+import Hero from '../images/LitChat-Hero.PNG';
 import EmpathyBE from '../images/LitChat-Empathy-BE.png';
 import EmpathyCR from '../images/LitChat-Empathy-CR.png';
 import EmpathyAW from '../images/LitChat-Empathy-AW.png';
