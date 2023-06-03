@@ -1,125 +1,587 @@
 import React from 'react';
 import '../styles/style.css';
-// import DLSImg from '../images/DLSHeadshot2.jpg';
+import Hero from '../images/LitChat-Hero.png';
+import EmpathyBE from '../images/LitChat-Empathy-BE.png';
+import EmpathyCR from '../images/LitChat-Empathy-CR.png';
+import EmpathyAW from '../images/LitChat-Empathy-AW.png';
+import PainGainBE from '../images/LitChat-PainGain-BE.png';
+import PainGainCR from '../images/LitChat-PainGain-CR.png';
+import PainGainAW from '../images/LitChat-PainGain-AW.png';
+import POVHMW from '../images/LitChat-POV-HMW.png';
+import AppMap from '../images/LitChat-ApplicationMap.png';
+import TaskFlow from '../images/LitChat-TaskFlow.png';
+import WFHome from '../images/LitChat-Wireframe-Home.png';
+import WFGroup from '../images/LitChat-Wireframe-Group.png';
+import WFMessages from '../images/LitChat-Wireframe-Messages.png';
+import FigmaHome from '../images/LitChat-Figma-Home.png';
+import FigmaGroup from '../images/LitChat-Figma-Group.png';
+import FigmaMessages from '../images/LitChat-Figma-Messages.png';
+import LogoSketch from '../images/LitChat-Branding-Logo.PNG';
+import FinalHome from '../images/LitChat-Final-Home.png';
+import FinalGroups from '../images/LitChat-Final-Groups.png';
+import FinalMessages from '../images/LitChat-Final-Messages.png';
+import FinalExtra from '../images/LitChat-Final-Extra.png';
 
 export default function LitChat() {
   return (
-    <div className="project" id="litchat">
-      <div className="container bg-white">
-        <h1>LitChat</h1>
-        <p>A webiste where users can discuss and exchange ideas about literature</p>
-        {/* mobile image and desktop image */}
+    <div className="fwproject" id="litchat">
+      <div className="fwproject-header" id="litchat">
+        <div>
+          <h1>LitChat</h1>
+          <p>A website where users can discuss and exchange ideas about literature</p>
+        </div>
+        <div className="fwproject-hero">
+          <a href="/">
+            <img src={Hero} alt="desktop and mobile renders of LitChat" />
+          </a>
+        </div>
       </div>
-      <div className="container bg-grey">
-        <h2>Project Overview</h2>
-        {/* COLUMN LEFT */}
-        <h3>Challenge</h3>
-        <p>LitChat LitChat is a dynamic and engaging website designed for literature enthusiasts to connect and share their thoughts on their favorite books. It serves as a virtual gathering place where users from all over can come together to discuss and exchange ideas about literature.</p>
+      <div className="fwproject-accent">
+        <div className="fwproject-overview">
+          <h1>Project Overview</h1>
+          <div className="fwproject-overview-grid">
+            {/* <!-- COLUMN LEFT --> */}
+            <div className="fwproject-overview-left">
+              <h2>Challenge</h2>
+              <p className="challenge-description">LitChat LitChat is a dynamic and engaging website designed
+                for literature enthusiasts to
+                connect and share their thoughts on their favorite books. It serves as a virtual
+                gathering place where users from all over can come together to discuss and exchange
+                ideas about literature.</p>
+              <h2>Objectives</h2>
+              <ul>
+                <li>Design the user interface for Litchat that is user-friendly and accessible from a
+                  desktop or mobile device</li>
+                <br></br>
+                <li>Design a logo for LitChat to use on the website and branding material</li>
+              </ul>
+            </div>
+            {/* <!-- COLUMN RIGHT --> */}
+            <div className="fwproject-overview-right">
+              <h3>Project Scope</h3>
+              <p>Front-End Web Development, User Interface, and Branding</p>
 
-        <h3>Objectives</h3>
-        <p>
-          <ul>
-            <li>Design the user interface for Litchat that is user-friendly and accessible from a desktop or mobile device</li>
-            <li>Design a logo for LitChat to use on the website and branding material</li>
-          </ul>
-        </p>
+              <h3>Tools</h3>
+              <p>Figma, HTML5, CSS3, JavaScript, React</p>
 
-        {/* COLUMN RIGHT */}
-        <h4>Project Scope</h4>
-        <p>Front-End Web Development, User Interface, and Branding</p>
+              <h3>Role</h3>
+              <p>Sole UX / UI Designer and Developer and Front-End Web Developer</p>
 
-        <h4>Tools</h4>
-        <p>Figma, HTML5, CSS3, JavaScript, React</p>
+              <h3>Team</h3>
+              <div className="team-members">
+                <p><a className="text-link" href="https://github.com/dleatonsalinas">Danielle
+                  Leaton-Salinas</a></p>
+                <p><a className="text-link" href="https://github.com/alanhornbaker">Alan Hornbaker</a></p>
+                <p><a className="text-link" href="https://github.com/hasherlaws18">Houston Asher Laws</a>
+                </p>
+                <p><a className="text-link" href="https://github.com/mtavacoli">Matin Tavacoli</a></p>
+              </div>
 
-        <h4>Role</h4>
-        <p>Sole UX / UI Designer and Developer and Front-End Web Developer</p>
-
-        <h4>Team</h4>
-        <p>Danielle Leaton-Salinas</p> https://github.com/dleatonsalinas
-        <p>Alan Hornbaker</p> https://github.com/alanhornbaker
-        <p>Houston Asher Laws</p> https://github.com/hasherlaws18
-        <p>Matin Tavacoli</p> https://github.com/mtavacoli
-
-        <h4>Duration</h4>
-        <p> 2 Weeks (15 Class Hours, 15 Independent Hours)</p>
-
-        {/* BUTTON TO VIEW PROTOTYPE / GITHUB LAUNCH */}
+              <h3>Duration</h3>
+              <p> 2 Weeks (15 Class Hours, 30 Independent Hours)</p>
+            </div>
+          </div>
+          <a className="view-github-button" href="https://github.com/hasherlaws18/Chat-App">View GitHub</a>
+          <a className="view-website-button" href="www.google.com">View Demo</a>
+        </div>
       </div>
-      <div>
-        <h2>Design Process</h2>
-        <section>
-          <h3>Research</h3>
-          <ul>
-            <li>User Research</li>
-            <li>Competitor Analysis</li>
-            <li>Gather Insights</li>
-            <li>Market Research</li>
-            <li>Define Project Goals</li>
-            <li>User Personas</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Design</h3>
-          <ul>
-            <li>Wireframes</li>
-            <li>Visual Mockups</li>
-            <li>Task Flow</li>
-            <li>Branding</li>
-            <li>Responsive UI</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Prototyping</h3>
-          <ul>
-            <li>Mockups</li>
-            <li>User Flows</li>
-            <li>Realistic Content</li>
-            <li>Feedback</li>
-            <li>Internal Testing</li>
-            <li>Review</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Testing</h3>
-          <ul>
-            <li>Usability Testing</li>
-            <li>Defined Tasks</li>
-            <li>Collect Data</li>
-            <li>Improve User Experience</li>
-          </ul>
-        </section>
-        <section>
-          <h2>Research</h2>
-          <h3>Research Plan</h3>
-          <p>Researching gives me a better understanding of the target users, their behaviors, needs, motivations, and prefereces. By researching first, I am able to uncover users' challenges and frustrations to create a more empathetic and user-friendly solution.
+      <div className="fwproject-white">
+        <div className="fwproject-design">
+          <h1>Design Process</h1>
+          <div className="card-container">
+            <div className="card">
+              <h3>Research</h3>
+              <ul>
+                <li>User Research</li>
+                <li>Competitor Analysis</li>
+                <li>Gather Insights</li>
+                <li>Market Research</li>
+                <li>Define Project Goals</li>
+                <li>User Personas</li>
+              </ul>
+            </div>
+            <div className="card">
+              <h3>Design</h3>
+              <ul>
+                <li>Wireframes</li>
+                <li>Visual Mockups</li>
+                <li>Task Flow</li>
+                <li>Branding</li>
+                <li>Responsive UI</li>
+              </ul>
+            </div>
+            <div className="card">
+              <h3>Prototyping</h3>
+              <ul>
+                <li>Mockups</li>
+                <li>Realistic Content</li>
+                <li>Feedback</li>
+                <li>Internal Testing</li>
+                <li>Review</li>
+              </ul>
+            </div>
+            <div className="card">
+              <h3>Testing</h3>
+              <ul>
+                <li>Usability Testing</li>
+                <li>Defined Tasks</li>
+                <li>Collect Data</li>
+                <li>Improve User Experience</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="fwproject-white">
+        <div className="fwproject-research">
+          <h1>Research</h1>
+          <h2>Research Plan</h2>
+          <p>Researching gives me a better understanding of the target users, their behaviors, needs,
+            motivations, and prefereces. By researching first, I am able to uncover users' challenges and
+            frustrations to create a more empathetic and user-friendly solution.
 
-            Creating a research plan is crucial to provide effective guidance for responsive design and development. The research plan for LitChat includes a project background, research questions, assumptions, methodologies, participants, and timeline. A complete research plan can be found here.   </p>
-          {/* TODO ADD RESEARCH PLAN LINK */}
-
-          <h4>Rsearch Goals</h4>
+            Creating a research plan is crucial to provide effective guidance for responsive design and
+            development.
+            <br></br><br></br>
+            The research plan for LitChat includes a project background, research questions,
+            assumptions, methodologies, participants, and timeline. A complete research plan can be found
+            in <a href="https://drive.google.com/file/d/1DQc6Wv-YOqRzIZL6RdcmyIy9hOBdoFqS/view?usp=sharing"
+              className="text-link">my research plan. </a>
+          </p>
+          <h3>Research Goals</h3>
           <ul>
-            <li>Evaluate the existing market landscape and identify potential differentiators for LitChat.</li>
-            <li>Gain a deep understanding of the target audience's demographics, preferences, motivations, and behaviors related to book reading and online communities.</li>
-            <li>Conduct a competitive analysis to assess competitors' strengths and weaknesses and identify opportunities for differentiation.</li>
-            <li>Investigate how users currently manage their book lists and explore their preferences for organizing and tracking books.</li>
-            <li>Explore users' experiences in finding books they want to read, including discovery methods, sources of recommendations, and challenges they face.</li>
+            <li>Evaluate the existing market landscape and identify potential differentiators for LitChat.
+            </li>
+            <li>Gain a deep understanding of the target audience's demographics, preferences, motivations,
+              and behaviors related to book reading and online communities.</li>
+            <li>Conduct a competitive analysis to assess competitors' strengths and weaknesses and identify
+              opportunities for differentiation.</li>
+            <li>Investigate how users currently manage their book lists and explore their preferences for
+              organizing and tracking books.</li>
+            <li>Explore users' experiences in finding books they want to read, including discovery methods,
+              sources of recommendations, and challenges they face.</li>
           </ul>
-          <h4>Assumptions</h4>
+          <h3>Assumptions</h3>
           <ul>
             <li>LitChat’s primary user base consists of avid book lovers</li>
             <li>People will actively discuss books with other people they do not know</li>
             <li>People want to find books to read online</li>
           </ul>
-          <h4>Methodologies</h4>
+          <h3>Methodologies</h3>
           <ul>
             <li>Secondary Research: Market Research, Competitive Analysis</li>
             <li>Primary Research: User Interviews</li>
           </ul>
-          <h3>Secondary Research</h3>
-          <h4>Market Research</h4>
-          <p>Market research is crucial for design as it helps to understand the competitive landscape, user expectations, and market trends. It provides valuable insignts into user needs, preferences, and behaviors. Researching allows me create user-centered solutions by identifying gaps, opportunities, and potential differentiators. This ensures that the designs are not only aesthetically pleasing but also aligned with business objectives and capable of delivering a superior user experience.</p>
-        <h5>Book Industry & Platforms</h5>
-        </section>
+          <h2>Secondary Research</h2>
+          <h3>Market Research</h3>
+          <p>Market research is crucial for design as it helps to understand the competitive landscape, user
+            expectations, and market trends. It provides valuable insignts into user needs, preferences, and
+            behaviors. Researching allows me create user-centered solutions by identifying gaps,
+            opportunities, and potential differentiators. This ensures that the designs are not only
+            aesthetically pleasing but also aligned with business objectives and capable of delivering a
+            superior user experience.</p>
+          <h4>Book Industry & Platforms</h4>
+          <p>Print book sales figures have improved and unit sales now consistently surpass 700 million per
+            year. Print also remains the most popular book format among U.S. consumers, with 65 percent of
+            adults having read a print book in the last twelve months. In 2021, U.S. book revenue grew
+            across multiple categories, and despite the gains in digital book
+            sales, print remains dominant. <a className="text-link"
+              href="https://www.statista.com/topics/1177/book-market/#topicOverview">(Statista)</a></p>
+          <h4>Demographics</h4>
+          <p>
+            <ul>
+              <li>The 65+ age group recorded the highest population of print book readers: 45.1%</li>
+              <li>The 45-54 age group contains the highest population of non-readers: 60.9%</li>
+              <li>Males recorded a slightly higher population of non-readers compared to females: 51.4% <a
+                className="text-link"
+                href="https://testprepinsight.com/resources/us-book-reading-statistics/">(Test Prep
+                Insight)</a></li>
+            </ul>
+          </p>
+          <h4>Reading Habits</h4>
+          <p>On average, the daily time spent reading among American adults was just over 20 minutes in 2020.
+            This marked an increase from previous years and was driven by the hike in media consumption
+            during the COVID-19 outbreak. Indeed, in 2021, time spent reading was back to pre-pandemic
+            levels. Meanwhile, the way U.S. consumers read is changing, and will continue to do so as media
+            formats and devices evolve. <a className="text-link"
+              href="https://www.statista.com/topics/3928/reading-habits-in-the-us/#topicOverview">(Statista)</a>
+          </p>
+          <h3>Competitive Research</h3>
+          <div className="card-container">
+            <div className="card-research">
+              <h3>Goodreads</h3>
+              <h4>Strengths</h4>
+              <ul>
+                <li>Extensive book database and recommendations.</li>
+                <li>Book club features and challenges.</li>
+                <li>Robust review system and integration.</li>
+                <li>Connect with favorite authors.</li>
+                <li>Large community for engagement.</li>
+              </ul>
+              <h4>Weaknesses</h4>
+              <ul>
+                <li>Outdated interface, limited customization.</li>
+                <li>Spoilers in reviews.</li>
+                <li>Privacy concerns, data sharing. (Amazon)</li>
+                <li>Limited content curation, recommendations.</li>
+                <li>Limited moderation, spam issues.</li>
+              </ul>
+            </div>
+            <div className="card-research">
+              <h3>LibraryThing</h3>
+              <h4>Strengths</h4>
+              <ul>
+                <li>Advanced cataloging for personal collections.</li>
+                <li>Active community, discussion groups.</li>
+                <li>Integration with bookstores, libraries.</li>
+                <li>Discover niche, lesser-known books.</li>
+                <li>Customizable book recommendations.</li>
+              </ul>
+              <h4>Weaknesses</h4>
+              <ul>
+                <li>Less appealing user interface.</li>
+                <li>Smaller user base compared to other platforms.</li>
+                <li>Limited e-reading platform integration.</li>
+                <li>Higher learning curve for users.</li>
+                <li>Delays in updating book database.</li>
+              </ul>
+            </div>
+            <div className="card-research">
+              <h3>Audible</h3>
+              <h4>Strengths</h4>
+              <ul>
+                <li>Vast audiobook library, extensive selection.</li>
+                <li>High-quality production, professional narration.</li>
+                <li>Convenient, on-the-go listening.</li>
+                <li>Appealing, easy-to-navigate interface.</li>
+                <li>Membership benefits, monthly credits, discounts.</li>
+              </ul>
+              <h4>Weaknesses</h4>
+              <ul>
+                <li>Expensive without membership.</li>
+                <li>Limited control over narration.</li>
+                <li>Audiobooks only, no ebooks.</li>
+                <li>No community engagement features.</li>
+                <li>Privacy concerns, data sharing. (Amazon)</li>
+              </ul>
+            </div>
+          </div>
+          <h3>User Personas</h3>
+          <p>Using the data from the market research, I created three potential personas that
+            represent
+            Litchat users. These personas helped me identify suitable people for interviews.</p>
+          <div className="card-container">
+            <div className="card-persona">
+              <h3>Book Enthusiast</h3>
+              <ul>
+                <li>Age: 30</li>
+                <li>Occupation: Librarian</li>
+                <li>Interests: Reads a wide range of genres, enjoys discovering new authors</li>
+                <li>Motivation: Seeks book recommendations and discussions with fellow readers
+                </li>
+                <li>Usage: Actively participates in book clubs, writes detailed reviews</li>
+              </ul>
+            </div>
+            <div className="card-persona">
+              <h3>Casual Reader</h3>
+              <ul>
+                <li>Age: 40</li>
+                <li>Occupation: Marketing Executive</li>
+                <li>Interests: Prefers popular fiction, mysteries, and thrillers</li>
+                <li>Motivation: Wants to keep track of read books, finds popular recommendations
+                </li>
+                <li>Usage: Rates books, uses the reading challenge feature, explores best-seller
+                  lists
+                </li>
+              </ul>
+            </div>
+            <div className="card-persona">
+              <h3>Aspiring Writer</h3>
+              <ul>
+                <li>Age: 25</li>
+                <li>Occupation: Teacher</li>
+                <li>Interests: Reads literary fiction, classics, and books on writing craft</li>
+                <li>Motivation: Seeks inspiration, learns from established authors' works</li>
+                <li>Usage: Follows favorite authors, participates in writing groups, explores
+                  writing-related discussions</li>
+              </ul>
+            </div>
+          </div>
+          <h2>Primary Research</h2>
+          <h3>User Interviews</h3>
+          <p>Now that I have an understanding of the market and people who may be interested in using
+            LitChat,
+            I created a Google Form document to interview real book-lovers to use in my primary
+            research.
+            <br></br><br></br>
+            There were a total of 5 participants who answered questions about their reading
+            preferences and
+            helped me gain valuable insight to use in the planning and development of LitChat.
+          </p>
+          <h3>Assumptions Validated</h3>
+          <ul>
+            <li>LitChat’s primary user base consists of avid book lovers
+              <p><b>Validated - 5/5 people answered "yes" to the question "Do you love books?"</b>
+              </p>
+            </li>
+            <br></br>
+            <li>People will actively discuss books with other people they do not know
+              <p><b>Not Validated - 1/5 people answered "no" to the question "Would you discuss
+                books with
+                other people you do not know online?"</b></p>
+            </li>
+            <br></br>
+            <li>People want to find books to read online
+              <p><b>Validated - 5/5 people answered "yes" to the question "Do you regularly search
+                for new
+                books online?"</b></p>
+            </li>
+          </ul>
+          <h2>Empathy Map</h2>
+          <p>Using the data gathered from interviews and personas, I created empathy maps and
+            pain/gain charts
+            using FigJam to
+            gain a deeper understanding of users' needs, thoughts, emotions, and behaviors in order
+            to
+            design LitChat in a way that truly resonate with them.</p>
+          <div className="empathy-map">
+            <div className="card-container">
+              <img src={EmpathyBE} alt="Empathy Map"/>
+              <img src={EmpathyCR} alt="Empathy Map"/>
+              <img src={EmpathyAW} alt="Empathy Map"/>
+            </div>
+          </div>
+          <div className="pain-gain">
+            <div className="card-container">
+              <img src={PainGainBE} alt="Pain/Gain"/>
+              <img src={PainGainCR} alt="Pain/Gain"/>
+              <img src={PainGainAW} alt="Pain/Gain"/>
+            </div>
+          </div>
+          <h3>Insights</h3>
+          <ul>
+            <li>Users value active engagement in book discussions and recommendations.</li>
+            <li>Users seek convenience in managing their reading lists and accessing popular book
+              recommendations.</li>
+            <li>Users find new books from their friends and family.</li>
+          </ul>
+          <h3>Needs</h3>
+          <ul>
+            <li>Users need a platform that provides a diverse range of book recommendations and an
+              active
+              community for meaningful discussions.</li>
+            <li>Users need a platform that offers effortless book management, popular
+              recommendations, and
+              access to ratings and reviews from fellow readers.</li>
+            <li>Users need an active and engaged community of readers and writers to connect, share
+              recommendations, and participate in discussions.</li>
+          </ul>
+          <h2>User Persona</h2>
+          <p>With a better understanding of the users wants and needs, I created a detailed persona
+            incorporating demographics, behaviors, goals, motivations, and pain points as a way to
+            better
+            inform the development of LitChat.
+            <br></br>
+            <br></br>
+            Creating a detailed persona hels me understand the users' needs and preferences so I can
+            better
+            create visually appealing interfaces that enhance user satisfaction and engagement.
+          </p>
+          <div className="card-container">
+            <div className="card-user-persona">
+              <h3>Alex Thompson</h3>
+              <ul>
+                <li>Age: 28</li>
+                <li>Occupation: Software Developer</li>
+                <li>Background: Alex is a tech-savvy individual who loves exploring new
+                  technologies and
+                  gadgets. They are an early adopter of new software and enjoy testing and
+                  providing
+                  feedback on various platforms. Alex is an avid reader and prefers science
+                  fiction
+                  and
+                  fantasy genres. They often read during their commute or in their free time
+                  to relax
+                  and
+                  escape into different worlds.</li>
+                <li>Motivation: Alex wants to find a convenient and user-friendly online
+                  platform for
+                  discovering, organizing, and discussing books. They are looking for a
+                  platform that
+                  provides personalized book recommendations based on their reading
+                  preferences and
+                  connects them with a community of like-minded readers.</li>
+                <li>Goals:
+                  <ul>
+                    <li>Easily discover new books based on their interests.</li>
+                    <li>Keep track of books they have read and want to read.</li>
+                    <li>Connect and engage with other readers through discussions and
+                      recommendations.
+                    </li>
+                    <li>Explore author profiles and updates.</li>
+                    <li>Provide feedback and contribute to the platform's improvement.</li>
+                  </ul>
+                </li>
+                <li>Challenges:
+                  <ul>
+                    <li>Limited time to explore new platforms due to work commitments.</li>
+                    <li>Preference for a seamless and intuitive user interface.</li>
+                    <li>Desire for accurate and relevant book recommendations.</li>
+                    <li>Finding a community that aligns with their reading interests and
+                      preferences.
+                    </li>
+                    <li>Ensuring privacy and data security while using the platform.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="fwproject-strategy">
+          <h1>Strategy</h1>
+          <h2>Point-of-View & How Might We</h2>
+          <p>To reframe the problem statement into actionable, solution-oriented questions, I created a table
+            in Excel using the insights and needs gathered in research. This table allows me to use a
+            brainstorming
+            environment to come up with creative solutions by asking questions. </p>
+          <div className="POV-HMW">
+            <div className="card-container">
+              <img src={POVHMW} alt="Point of View / How Might We"/>
+            </div>
+          </div>
+          <h2>Application Map</h2>
+          <p>The next step in the process was to create an application map. This provides an overview
+            of the structure of the application's architecture and navigation. I created an application map
+            using FigJam to allow me to visualize the user journey.</p>
+          <div className="appmap">
+            <div className="card-container">
+              <img src={AppMap} alt="Application Map"/>
+            </div>
+          </div>
+        </div>
+        <div className="fwproject-design">
+          <h1>Design</h1>
+          <h2>Task Flow</h2>
+          <p>To understand how the user will get from point A to point B, I created a task flow using FigJam.
+            This example
+            uses our persona, Alex, who wants to share their thoughts about a coding book they read.</p>
+          <div className="card-container">
+            <div className="task-flow">
+              <img src={TaskFlow} alt="Task Flow"/>
+            </div>
+          </div>
+          <h2>Wireframe</h2>
+          <h3>Sketches</h3>
+          <p>After creating <a className="text-link"
+            href="https://drive.google.com/file/d/1A14SNipuy5jpFtpRzFQ2DCVSeHu-Nu-I/view?usp=sharing">the
+            LitChat Requirements document</a> outlining the design requirements for the project, I was
+            able to begin sketching what the pages would look like. The first drafts were done on paper and
+            pen, which allows me to quickly visualize my ideas before putting everything into a digital
+            format.</p>
+          <div className="wireframe-sketch">
+            <div className="card-container">
+              <img src={WFHome} alt="Sketch of Wireframe Home Page"/>
+              <img src={WFGroup} alt="Sketch of Wireframe Groups Page"/>
+              <img src={WFMessages} alt="Sketch of Wireframe Messages Page"/>
+            </div>
+          </div>
+          <h3>Mid-Fidelity Wireframes</h3>
+          <p>After creating the sketches and getting a better idea of the layouts, I began to bring the
+            sketches to life using Figma.</p>
+          <div className="mid-wireframe">
+            <div className="card-container">
+              <img src={FigmaHome} alt="Figma Home"/>
+              <img src={FigmaGroup} alt="Figma Group"/>
+              <img src={FigmaMessages} alt="Figma Messages"/>
+            </div>
+          </div>
+        </div>
+        <div className="fwproject-branding">
+          <h1>Branding</h1>
+          <p>To start the branding journey, I brainstormed ideas for what to call LitChat. Since this project
+            was contructed from scratch, every aspect required careful consideration. Some of the first
+            ideas for the website name included Novel Connect and ReadTogether. Ultimately I felt LitChat
+            encapsulated the essence of the website, combining its literary/book-oriented nature and
+            messaging/chat functionalities.
+            <br></br><br></br>
+            The next step was to create <a className="text-link" href="https://pin.it/4PmSArC">a
+              mood board</a> using Pinterest which I divided into sections for art, color scheme,
+            typography, and logo inspiration. I wanted to get a feel for what LitChat would become and
+            create an initial impression that would be positive for the user.
+            <br></br>
+            <br></br>
+            I used my knowledge of color theory and chose to focus on yellow and brown for LitChat's design.
+            The colors are reminiscent of old, leather-bound books with worn pages and are intended to
+            create a nostalgic feeling for the user.
+            <br></br>
+            <br></br>
+            In color theory, yellow is often associated with positivity, energy, and warmth. It can evoke
+            feelings of happiness, optimism, and friendliness. Brown is a warm, earthy color that often
+            conveys a sense of stability, reliability, and warmth. It can evoke feelings of comfort,
+            security, and trust.
+            <br></br>
+            <br></br>
+            Since LitChat will be a community of readers, having a sense of warmth and trust is important.
+          </p>
+          <h2>Logo Design</h2>
+          <p>Using ideas from the <a className="text-link" href="https://pin.it/4PmSArC">mood board</a> as
+            inspiration, I began sketching out my logo ideas for LitChat. Using concepts of the books and
+            incorporating the cartoon-style chat bubble was a challenge, but I landed on a design that I
+            felt was visually appealing and memorable. Due to time constraints, I was only able to digitize
+            one design for use in the development.
+          </p>
+          <div className="card-container">
+            <div className="litchat-logo">
+              <img src={LogoSketch} alt="Sketch of possible logos"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="fwproject-white">
+        <div className="fwproject-final">
+          <h1>Final Website Design</h1>
+          <p>After meticulously adding the finishing touches, I proceeded to develop the web pages for LitChat
+            utilizing HTML, CSS, Tailwind, and React. Employing these technologies, I ensured that the
+            website is not only visually appealing but also fully operational in React. It is
+            mobile-responsive and now primed to seamlessly retrieve information from the server to cater to
+            the needs of its users. I believe I made significant progress in translating the design from the
+            wireframe into reality, and given a little extra time, I am confident it would have been
+            flawless.</p>
+          <div className="card-container">
+            <div className="final-website">
+              <img src={FinalHome}
+                alt="Home Page" />
+              <img src={FinalGroups}
+                alt="Groups Page" />
+              <img src={FinalMessages}
+                alt="Messages Page" />
+              <img src={FinalExtra}
+                alt="Login, Register, and 404 Page" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="fwproject-accent">
+        <div className="fwproject-closing">
+          <h1>Closing Thoughts</h1>
+          <h2>What I learned...</h2>
+          <p>Developing a comprehensive end-to-end application within a mere two-week timeframe is an
+            exceptionally challenging task. Even splitting the group project and handling everything but the
+            server-side interaction myself was nearly impossible. LitChat presented itself as a substantial
+            undertaking, demanding an immense amount of effort. Unfortunately, LitChat did not successfully
+            launch on Heroku as the group project required. However, I do believe that I fulfilled the
+            objectives outlined for my portion of the project. Given more time and dedication I have no
+            doubt the group project would have successfully launched.
+            <br></br><br></br>
+            If I had more time, I would love to develop some of the functionality and sprinkles that were
+            initially discussed. Who knows-- maybe one day I will revisit LitChat, but for now with my part
+            of the project completed, it sits firmly on the shelf, awaiting its potential
+            revival.
+          </p>
+          <div className="view-work">
+            <a className="view-work-button" href="#work">View More Work</a>
+          </div>
+        </div>
       </div>
     </div>
   );
