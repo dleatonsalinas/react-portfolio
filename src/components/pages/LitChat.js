@@ -82,7 +82,7 @@ export default function LitChat() {
             </div>
           </div>
           <a className="view-github-button" href="https://github.com/hasherlaws18/Chat-App">View GitHub</a>
-          <a className="view-website-button" href="www.google.com">View Demo</a>
+          <a className="view-website-button" href="https://dleatonsalinas.github.io/LitChat-Demo/">View Demo</a>
         </div>
       </div>
       <div className="fwproject-white">
