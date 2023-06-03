@@ -1,17 +1,38 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e70197fe.css",
-    "main.js": "/react-portfolio/static/js/main.b41cf8bc.js",
+    "main.css": "/react-portfolio/static/css/main.f90b0e8c.css",
+    "main.js": "/react-portfolio/static/js/main.7c5bf9c1.js",
+    "static/media/LitChat-Hero.PNG": "/react-portfolio/static/media/LitChat-Hero.78b9d2621a5e6198c06d.PNG",
     "static/media/featured-project-air-pollution.png": "/react-portfolio/static/media/featured-project-air-pollution.97dc789e248d0675ce70.png",
     "static/media/featured-project-litchat.png": "/react-portfolio/static/media/featured-project-litchat.2468f3dc8994b6febc0b.png",
+    "static/media/LitChat-Final-Groups.png": "/react-portfolio/static/media/LitChat-Final-Groups.f238c7bddb9dcf0b2bf4.png",
+    "static/media/LitChat-Final-Home.png": "/react-portfolio/static/media/LitChat-Final-Home.ee50aed78d73f55eb9f4.png",
+    "static/media/LitChat-Final-Messages.png": "/react-portfolio/static/media/LitChat-Final-Messages.eef12653f6cd2a3f28f6.png",
     "static/media/DLSHeadshot2.jpg": "/react-portfolio/static/media/DLSHeadshot2.bde244f6281f96454934.jpg",
+    "static/media/LitChat-Figma-Home.png": "/react-portfolio/static/media/LitChat-Figma-Home.7d89892afb10fe526a61.png",
+    "static/media/LitChat-Wireframe-Home.png": "/react-portfolio/static/media/LitChat-Wireframe-Home.a2fe2f06e49d07554d07.png",
+    "static/media/LitChat-Wireframe-Messages.png": "/react-portfolio/static/media/LitChat-Wireframe-Messages.7f0212b21612fd0c0229.png",
+    "static/media/LitChat-Figma-Messages.png": "/react-portfolio/static/media/LitChat-Figma-Messages.08853cf83505bd382430.png",
+    "static/media/LitChat-Final-Extra.png": "/react-portfolio/static/media/LitChat-Final-Extra.db2141a31995568596e1.png",
+    "static/media/LitChat-Wireframe-Group.png": "/react-portfolio/static/media/LitChat-Wireframe-Group.a021b20a57c50f986b1d.png",
+    "static/media/LitChat-TaskFlow.png": "/react-portfolio/static/media/LitChat-TaskFlow.452c63c34e7e7a22e74d.png",
+    "static/media/LitChat-Empathy-BE.png": "/react-portfolio/static/media/LitChat-Empathy-BE.deb5cdcd9c097680d560.png",
+    "static/media/LitChat-Figma-Group.png": "/react-portfolio/static/media/LitChat-Figma-Group.c126ce64f57c847990b2.png",
+    "static/media/LitChat-ApplicationMap.png": "/react-portfolio/static/media/LitChat-ApplicationMap.c9c87d8a6a3a9a635132.png",
+    "static/media/LitChat-Empathy-AW.png": "/react-portfolio/static/media/LitChat-Empathy-AW.2f0b401985ee2ad9f790.png",
+    "static/media/LitChat-Branding-Logo.PNG": "/react-portfolio/static/media/LitChat-Branding-Logo.2d13e5349844a7a2e1c9.PNG",
+    "static/media/LitChat-Empathy-CR.png": "/react-portfolio/static/media/LitChat-Empathy-CR.d418798ad75bd98e8d14.png",
     "static/media/featured-project-weather.png": "/react-portfolio/static/media/featured-project-weather.aa551ead3e313abd34c1.png",
+    "static/media/LitChat-POV-HMW.png": "/react-portfolio/static/media/LitChat-POV-HMW.d9cfa9b7f93c4032c585.png",
+    "static/media/LitChat-PainGain-CR.png": "/react-portfolio/static/media/LitChat-PainGain-CR.9865d98e8a3fd853517c.png",
+    "static/media/LitChat-PainGain-BE.png": "/react-portfolio/static/media/LitChat-PainGain-BE.9500bdfd04394daa5f51.png",
+    "static/media/LitChat-PainGain-AW.png": "/react-portfolio/static/media/LitChat-PainGain-AW.7f018b3b99754d9d918b.png",
     "index.html": "/react-portfolio/index.html",
-    "main.e70197fe.css.map": "/react-portfolio/static/css/main.e70197fe.css.map",
-    "main.b41cf8bc.js.map": "/react-portfolio/static/js/main.b41cf8bc.js.map"
+    "main.f90b0e8c.css.map": "/react-portfolio/static/css/main.f90b0e8c.css.map",
+    "main.7c5bf9c1.js.map": "/react-portfolio/static/js/main.7c5bf9c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e70197fe.css",
-    "static/js/main.b41cf8bc.js"
+    "static/css/main.f90b0e8c.css",
+    "static/js/main.7c5bf9c1.js"
   ]
 }
