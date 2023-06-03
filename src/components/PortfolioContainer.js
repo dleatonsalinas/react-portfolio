@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
+import LitChat from './pages/LitChat';
 import './styles/style.css';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
@@ -19,9 +20,11 @@ export default function PortfolioContainer() {
       case 'About':
         return <About />;
       case 'Work':
-        return <Work />;
+        return <Work handlePageChange={handlePageChange}/>;
       case 'Contact':
         return <Contact />;
+      case 'LitChat':
+        return <LitChat />;
       default:
         return null;
     }

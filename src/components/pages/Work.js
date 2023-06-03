@@ -1,12 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/style.css';
 import FP1Img from '../images/featured-project-litchat.png';
 import FP2Img from '../images/featured-project-weather.png';
 import FP3Img from '../images/featured-project-air-pollution.png';
 import OtherPHImg from '../images/other-project-placeholder.png';
 
-export default function Work() {
+export default function Work({ handlePageChange }) {
+  const navigateToLitChat = () => {
+    handlePageChange('LitChat');
+  };
+
   return (
     <div className="work-bkrd">
       <div className="work" id="work">
@@ -16,7 +19,7 @@ export default function Work() {
             <div className="featured-projects-content-R1">
               <p className="featured-project-header-R1">Featured Project</p>
               <h6 className="featured-project-title-R1">
-                <Link to="/LitChat">LitChat</Link>
+                <span onClick={navigateToLitChat}>LitChat</span>
               </h6>
               <div className="featured-description-R1">
                 <p>
@@ -24,9 +27,9 @@ export default function Work() {
                 </p>
               </div>
               <div className="featured-project-photo-R1">
-                <Link to="/LitChat">
+              <span onClick={navigateToLitChat}>
                   <img src={FP1Img} alt="Website Landing Page" />
-                </Link>
+                </span>
               </div>
             </div>
           </li>
