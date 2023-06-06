@@ -2,7 +2,7 @@
 
 See the deployed site [here:](https://dleatonsalinas.github.io/react-portfolio) 
 
-![Screenshot 2023-05-04 081619](https://user-images.githubusercontent.com/118854114/236215985-8b73f7ba-72aa-4d07-8be3-650c33e7de72.jpg)
+<img width="541" alt="Portfolio-Home" src="https://github.com/dleatonsalinas/react-portfolio/assets/118854114/f9f3ba15-a59c-4429-86ba-48d44d6ad080">
 
 ## Your Task
 
