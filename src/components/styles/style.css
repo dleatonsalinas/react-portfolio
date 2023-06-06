@@ -196,11 +196,11 @@ footer {
     box-sizing: inherit;
     display: flex;
     background: #f5f3ef;
-    font-size: clamp(10px, 1.75vw, 16px);
-    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(10px, 1.75vw, 14px);
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-color: #000;
+    color: #000;
     line-height: 1.5;
     justify-content: center;
 }
@@ -216,9 +216,14 @@ footer {
 .about-column {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+}
+
+.about-bio {
+    padding-bottom: 2rem;
 }
 
 .about-photo {
@@ -232,29 +237,43 @@ footer {
     border-radius: 2vw;
 }
 
-.work-bkrd {
-    width: 100%;
-    background: #ABB6BB;
-}
+@media (max-width: 767px) {
+    .about-row {
+      flex-direction: column;
+    }
+  
+    .about-bio {
+      padding-right: 0;
+    }
+  
+    .about-photo {
+      padding: 2rem;
+    }
+  }
+  
+
 
 .work {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f3ef;
+    margin: 0 auto;
     width: 100%;
-    max-width: 1000px;
-    padding: 2vw 5vw 10vw 5vw;
+    padding: 2vw 0vw 2vw 0vw;
     font-size: clamp(10px, 1.75vw, 16px);
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
-    font-color: #000;
+    color: #000;
     line-height: 1.5;
     text-align: center;
 }
 
 .work-featured {
     display: grid;
+    max-width: 960px;
+    text-align: center;
 }
 
 .work-featured img {
@@ -480,9 +499,18 @@ footer {
     color: var(--dark);
 }
 
+.work-other-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    background-color: #ABB6BB;
+    padding: 20px;
+  }
+
 .work-other-grid-bkrd {
-    /* width: 100%; */
     background: #ABB6BB;
+    padding: 2vw;
+    height: auto;
 }
 
 @media (max-width: 768px) {
@@ -506,19 +534,6 @@ footer {
         background: #ABB6BB;
     }
 }
-
-
-/* .work-other-container {
-    display: grid;
-    max-width: 800px;
-    margin-right: auto;
-    margin-left: auto;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 5%;
-    grid-row-gap: 5%;
-    background: #ABB6BB;
-} */
 
 .work-other-items {
     display: grid;

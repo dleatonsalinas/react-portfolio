@@ -11,7 +11,6 @@ export default function Work({ handlePageChange }) {
   };
 
   return (
-    <div className="work-bkrd">
       <div className="work" id="work">
         <h5>Work</h5>
         <ul className="work-featured">
@@ -168,6 +167,5 @@ export default function Work({ handlePageChange }) {
           </div>
         </div>
       </div>
-    </div>
   );
 }
