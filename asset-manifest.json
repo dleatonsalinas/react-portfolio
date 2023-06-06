@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.aae8a8ad.css",
-    "main.js": "/react-portfolio/static/js/main.ea031e7b.js",
+    "main.css": "/react-portfolio/static/css/main.c4c1622b.css",
+    "main.js": "/react-portfolio/static/js/main.8db989fd.js",
     "static/media/LitChat-Hero.PNG": "/react-portfolio/static/media/LitChat-Hero.78b9d2621a5e6198c06d.PNG",
     "static/media/featured-project-air-pollution.png": "/react-portfolio/static/media/featured-project-air-pollution.97dc789e248d0675ce70.png",
     "static/media/featured-project-litchat.png": "/react-portfolio/static/media/featured-project-litchat.2468f3dc8994b6febc0b.png",
@@ -28,11 +28,11 @@
     "static/media/LitChat-PainGain-BE.png": "/react-portfolio/static/media/LitChat-PainGain-BE.9500bdfd04394daa5f51.png",
     "static/media/LitChat-PainGain-AW.png": "/react-portfolio/static/media/LitChat-PainGain-AW.7f018b3b99754d9d918b.png",
     "index.html": "/react-portfolio/index.html",
-    "main.aae8a8ad.css.map": "/react-portfolio/static/css/main.aae8a8ad.css.map",
-    "main.ea031e7b.js.map": "/react-portfolio/static/js/main.ea031e7b.js.map"
+    "main.c4c1622b.css.map": "/react-portfolio/static/css/main.c4c1622b.css.map",
+    "main.8db989fd.js.map": "/react-portfolio/static/js/main.8db989fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.aae8a8ad.css",
-    "static/js/main.ea031e7b.js"
+    "static/css/main.c4c1622b.css",
+    "static/js/main.8db989fd.js"
   ]
 }
