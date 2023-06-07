@@ -24,7 +24,7 @@ export default function PortfolioContainer() {
       case 'Contact':
         return <Contact />;
       case 'LitChat':
-        return <LitChat />;
+        return <LitChat handlePageChange={handlePageChange}/>;
       default:
         return null;
     }

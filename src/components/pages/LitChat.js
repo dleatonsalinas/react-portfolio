@@ -22,7 +22,11 @@ import FinalGroups from '../images/LitChat-Final-Groups.png';
 import FinalMessages from '../images/LitChat-Final-Messages.png';
 import FinalExtra from '../images/LitChat-Final-Extra.png';
 
-export default function LitChat() {
+export default function LitChat({handlePageChange}) {
+  const navigateToWork =() => {
+    handlePageChange('Work');
+  }
+
   return (
     <div className="fwproject" id="litchat">
       <div className="fwproject-header" id="litchat">
@@ -579,7 +583,7 @@ export default function LitChat() {
             revival.
           </p>
           <div className="view-work">
-            <a className="view-work-button" href="#work">View More Work</a>
+            <span onClick={navigateToWork}><a className="view-work-button" href="#work">View More Work</a></span>
           </div>
         </div>
       </div>
