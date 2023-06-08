@@ -2,8 +2,9 @@ import React from 'react';
 import '../styles/style.css';
 import FP1Img from '../images/featured-project-litchat.png';
 import FP2Img from '../images/featured-project-weather.png';
-import FP3Img from '../images/featured-project-air-pollution.png';
-import OtherPHImg from '../images/other-project-placeholder.png';
+import FP3Img from '../images/featured-project-coding-quiz.png';
+import OtherProject1 from '../images/featured-project-coding-quiz.png'
+import OtherPHImg from '../images/featured-project-air-pollution.png';
 
 export default function Work({ handlePageChange }) {
   const navigateToLitChat = () => {
@@ -58,15 +59,14 @@ export default function Work({ handlePageChange }) {
             <div className="featured-projects-content-R2">
               <p className="featured-project-header-R2">Featured Project</p>
               <h6 className="featured-project-title-R2">
-                <a href="https://www.placeholder.com">GPS Project</a>
+                <a href="https://dleatonsalinas.github.io/code-quiz/">Coding Quiz</a>
               </h6>
               <div className="featured-description-R2">
                 <p>
-                  An interactive website to show air pollution levels based on a searched location. This was built using html, CSS, JavaScript, and utilizes API calls from Google Maps and OpenWeatherMap.
-                </p>
+                A timed coding quiz with multiple-choice questions built with HTML, CSS, and JavaScript.</p>
               </div>
               <div className="featured-project-photo-R2">
-                <a href="https://cyril1743.github.io/GPS-Satellite/"><img src={FP3Img} alt="Website Landing Page" /></a>
+                <a href="https://dleatonsalinas.github.io/code-quiz/"><img src={FP3Img} alt="Website Landing Page" /></a>
               </div>
             </div>
           </li>
@@ -77,16 +77,16 @@ export default function Work({ handlePageChange }) {
             <div className="work-other-items">
               <header>
                 <h6 className="work-other-title">
-                  <a href="https://www.placeholder.com">Placeholder</a>
+                  <a href="https://cyril1743.github.io/GPS-Satellite/">Air Pollution Levels</a>
                 </h6>
                 <div className="work-other-description">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                  An interactive website to show air pollution levels based on a searched location. This was built using html, CSS, JavaScript, and utilizes API calls from Google Maps and OpenWeatherMap.
+                </p>
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project" /></a>
+                <a href="https://cyril1743.github.io/GPS-Satellite/"><img src={OtherProject1} alt="Air Pollution Levels" /></a>
               </footer>
             </div>
             <div className="work-other-items">
