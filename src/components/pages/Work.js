@@ -3,8 +3,10 @@ import '../styles/style.css';
 import FP1Img from '../images/featured-project-litchat.png';
 import FP2Img from '../images/featured-project-weather.png';
 import FP3Img from '../images/featured-project-coding-quiz.png';
-import OtherProject1 from '../images/featured-project-coding-quiz.png'
-import OtherPHImg from '../images/featured-project-air-pollution.png';
+import OtherProject1 from '../images/featured-project-air-pollution.png';
+import OtherProject2 from '../images/other-readme-generator.png';
+import OtherProject3 from '../images/other-team-profile.png';
+import OtherPHImg from '../images/other-project-placeholder.png';
 
 export default function Work({ handlePageChange }) {
   const navigateToLitChat = () => {
@@ -92,31 +94,29 @@ export default function Work({ handlePageChange }) {
             <div className="work-other-items">
               <header>
                 <h6 className="work-other-title">
-                  <a href="https://www.placeholder.com">Placeholder</a>
+                  <a href="https://github.com/dleatonsalinas/readme-generator">README Generator</a>
                 </h6>
                 <div className="work-other-description">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                  A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package in Node.js.</p>
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project" /></a>
+                <a href="https://github.com/dleatonsalinas/readme-generator"><img src={OtherProject2} alt="ReadMe Generator" /></a>
               </footer>
             </div>
             <div className="work-other-items">
               <header>
                 <h6 className="work-other-title">
-                  <a href="https://www.placeholder.com">Placeholder</a>
+                  <a href="https://github.com/dleatonsalinas/team-profile-generator">Team Profile Generator</a>
                 </h6>
                 <div className="work-other-description">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                  A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. </p>
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project" /></a>
+                <a href="https://github.com/dleatonsalinas/team-profile-generator"><img src={OtherProject3} alt="Team Profile Generator" /></a>
               </footer>
             </div>
             <div className="work-other-items">
