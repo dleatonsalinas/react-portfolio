@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.0bfdc9b0.css",
-    "main.js": "/react-portfolio/static/js/main.fd0a2c07.js",
+    "main.js": "/react-portfolio/static/js/main.23961203.js",
     "static/media/other-team-profile.png": "/react-portfolio/static/media/other-team-profile.cd5ed34bd43eeaee84b9.png",
+    "static/media/other-project-booksearch.png": "/react-portfolio/static/media/other-project-booksearch.a0cb3d8fc11bfe94a2df.png",
+    "static/media/featured-project-horiseon.png": "/react-portfolio/static/media/featured-project-horiseon.b271a3f6692e7c27c366.png",
     "static/media/LitChat-Hero.PNG": "/react-portfolio/static/media/LitChat-Hero.78b9d2621a5e6198c06d.PNG",
     "static/media/featured-project-air-pollution.png": "/react-portfolio/static/media/featured-project-air-pollution.97dc789e248d0675ce70.png",
     "static/media/featured-project-litchat.png": "/react-portfolio/static/media/featured-project-litchat.2468f3dc8994b6febc0b.png",
@@ -26,16 +28,17 @@
     "static/media/LitChat-Empathy-CR.png": "/react-portfolio/static/media/LitChat-Empathy-CR.d418798ad75bd98e8d14.png",
     "static/media/featured-project-weather.png": "/react-portfolio/static/media/featured-project-weather.aa551ead3e313abd34c1.png",
     "static/media/LitChat-POV-HMW.png": "/react-portfolio/static/media/LitChat-POV-HMW.d9cfa9b7f93c4032c585.png",
+    "static/media/other-project-workday.png": "/react-portfolio/static/media/other-project-workday.f781cef93750d8364d37.png",
     "static/media/LitChat-PainGain-CR.png": "/react-portfolio/static/media/LitChat-PainGain-CR.9865d98e8a3fd853517c.png",
     "static/media/LitChat-PainGain-BE.png": "/react-portfolio/static/media/LitChat-PainGain-BE.9500bdfd04394daa5f51.png",
     "static/media/LitChat-PainGain-AW.png": "/react-portfolio/static/media/LitChat-PainGain-AW.7f018b3b99754d9d918b.png",
     "static/media/featured-project-coding-quiz.png": "/react-portfolio/static/media/featured-project-coding-quiz.b17bf8da8babb6ad411c.png",
     "index.html": "/react-portfolio/index.html",
     "main.0bfdc9b0.css.map": "/react-portfolio/static/css/main.0bfdc9b0.css.map",
-    "main.fd0a2c07.js.map": "/react-portfolio/static/js/main.fd0a2c07.js.map"
+    "main.23961203.js.map": "/react-portfolio/static/js/main.23961203.js.map"
   },
   "entrypoints": [
     "static/css/main.0bfdc9b0.css",
-    "static/js/main.fd0a2c07.js"
+    "static/js/main.23961203.js"
   ]
 }
