@@ -6,7 +6,9 @@ import FP3Img from '../images/featured-project-coding-quiz.png';
 import OtherProject1 from '../images/featured-project-air-pollution.png';
 import OtherProject2 from '../images/other-readme-generator.png';
 import OtherProject3 from '../images/other-team-profile.png';
-import OtherPHImg from '../images/other-project-placeholder.png';
+import OtherProject4 from '../images/other-project-booksearch.png';
+import OtherProject5 from '../images/other-project-workday.png';
+import OtherProject6 from '../images/featured-project-horiseon.png';
 
 export default function Work({ handlePageChange }) {
   const navigateToLitChat = () => {
@@ -122,46 +124,44 @@ export default function Work({ handlePageChange }) {
             <div className="work-other-items">
               <header>
                 <h6 className="work-other-title">
-                  <a href="https://www.placeholder.com">Placeholder</a>
+                  <a href="https://github.com/dleatonsalinas/horiseon-refactor">Book Search Engine</a>
                 </h6>
                 <div className="work-other-description">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                    A book search engine utilizing Google Books API search engine with GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API.</p>
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project" /></a>
+                <a href="https://github.com/dleatonsalinas/horiseon-refactor"><img src={OtherProject4} alt="Book Search Engine" /></a>
               </footer>
             </div>
             <div className="work-other-items">
               <header>
                 <h6 className="work-other-title">
-                  <a href="https://www.placeholder.com">Placeholder</a>
+                  <a href="https://github.com/dleatonsalinas/work-day-scheduler">Work Day Scheduler</a>
                 </h6>
                 <div className="work-other-description">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
                   </p>
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project" /></a>
+                <a href="https://github.com/dleatonsalinas/work-day-scheduler"><img src={OtherProject5} alt="Work Day Scheduler" /></a>
               </footer>
             </div>
             <div className="work-other-items">
               <header>
                 <h6 className="work-other-title">
-                  <a href="https://www.placeholder.com">Placeholder</a>
+                  <a href="https://github.com/dleatonsalinas/horiseon-refactor">Horiseon</a>
                 </h6>
                 <div className="work-other-description">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                    Refactored existing Horiseon website. Modified HTML and CSS files for improved accessibility and search engine optimization.</p>
                 </div>
               </header>
               <footer>
-                <a href="https://www.placeholder.com"><img src={OtherPHImg} alt="Placeholder project" /></a>
+                <a href="https://github.com/dleatonsalinas/horiseon-refactor"><img src={OtherProject6} alt="Horiseon" /></a>
               </footer>
             </div>
           </div>
